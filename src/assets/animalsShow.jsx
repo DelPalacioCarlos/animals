@@ -32,11 +32,11 @@ function AnimalsShow({type}){
         className="animals-show"
         >
             <img
-            src={svgMap(type)}
+            src={svgMap[type]}
             alt="animal"
             className="animal"
             />
-            
+
             <img 
             src={heart}
             alt="heart"
