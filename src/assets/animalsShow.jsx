@@ -31,6 +31,12 @@ function AnimalsShow({type}){
         onClick={handleClick}
         className="animals-show"
         >
+            <img
+            src={svgMap(type)}
+            alt="animal"
+            className="animal"
+            />
+            
             <img 
             src={heart}
             alt="heart"
