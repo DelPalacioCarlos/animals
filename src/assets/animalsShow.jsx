@@ -36,7 +36,7 @@ function AnimalsShow({type}){
             alt="animal"
             className="animal"
             />
-
+            
             <img 
             src={heart}
             alt="heart"
